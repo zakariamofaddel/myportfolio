@@ -1,6 +1,6 @@
 # My Portfolio
 
-![Project Image](img/portfolioscreen.png)
+![Project Image](assets/img/portfolioscreen.png)
 
 ### Table of Contents
 
