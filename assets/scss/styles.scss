@@ -318,10 +318,21 @@ img {
 			}
 		}
 
-		& > .button {
-			text-align: center;
-			border-radius: 0;
-			z-index: 1;
+		.workButton-container {
+			display: flex;
+
+			.button {
+				background-color: var(--first-color);
+				text-align: center;
+				border-radius: 0;
+				flex: 1;
+				z-index: 1;
+				transition: all 0.2s ease-in-out;
+
+				&:hover {
+					background-color: rgb(72, 72, 211);
+				}
+			}
 		}
 	}
 }
