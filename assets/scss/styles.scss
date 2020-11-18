@@ -308,6 +308,10 @@ img {
 		border-radius: 0.5rem;
 		overflow: hidden;
 
+		iframe {
+			background: #000;
+		}
+
 		& img {
 			transform: scale(1.05);
 			transition: 1s;
